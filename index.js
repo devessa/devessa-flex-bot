@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 app.use(express.json());
 
-const ACCESS_TOKEN = 'PASTE_YOUR_CHANNEL_ACCESS_TOKEN_HERE';
+const ACCESS_TOKEN = 'ssyVGBgc1ULDtI2uYDpggTnRx6z4O7roAfxMrNZ6LSHAqlIi+RMnz2ZgicQp072BOA6mKTxyHgWtq3viT2pgDAMGVWPf+35J832h9S7Uoj3rocTQU0oYgCFUpsYFM2ojv6prgWc3x5z/uZ8xfwwp7gdB04t89/1O/w1cDnyilFU=';
 
 app.post('/webhook', async (req, res) => {
   const events = req.body.events;
